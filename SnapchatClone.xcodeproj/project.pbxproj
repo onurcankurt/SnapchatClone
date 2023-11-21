@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		771CEC282B0D250A006F0B11 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CEC272B0D250A006F0B11 /* FeedCell.swift */; };
+		771CEC2A2B0D2AAA006F0B11 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CEC292B0D2AAA006F0B11 /* Snap.swift */; };
 		7734BA9D2AF5924A008124F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734BA9C2AF5924A008124F9 /* AppDelegate.swift */; };
 		7734BA9F2AF5924A008124F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734BA9E2AF5924A008124F9 /* SceneDelegate.swift */; };
 		7734BAA12AF5924A008124F9 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734BAA02AF5924A008124F9 /* SignInVC.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		3564C165DDEBFD8B4FC59802 /* Pods-SnapchatClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatClone.release.xcconfig"; path = "Target Support Files/Pods-SnapchatClone/Pods-SnapchatClone.release.xcconfig"; sourceTree = "<group>"; };
 		771CEC272B0D250A006F0B11 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		771CEC292B0D2AAA006F0B11 /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
 		7734BA992AF5924A008124F9 /* SnapchatClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7734BA9C2AF5924A008124F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7734BA9E2AF5924A008124F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				779757E92B08D59E001A835C /* UserSingleton.swift */,
+				771CEC292B0D2AAA006F0B11 /* Snap.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				779757EA2B08D59E001A835C /* UserSingleton.swift in Sources */,
+				771CEC2A2B0D2AAA006F0B11 /* Snap.swift in Sources */,
 				774515E62AF916AA00C5CCFB /* FeedVC.swift in Sources */,
 				7734BAA12AF5924A008124F9 /* SignInVC.swift in Sources */,
 				7734BA9D2AF5924A008124F9 /* AppDelegate.swift in Sources */,
