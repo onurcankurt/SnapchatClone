@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		771CEC282B0D250A006F0B11 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CEC272B0D250A006F0B11 /* FeedCell.swift */; };
 		7734BA9D2AF5924A008124F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734BA9C2AF5924A008124F9 /* AppDelegate.swift */; };
 		7734BA9F2AF5924A008124F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734BA9E2AF5924A008124F9 /* SceneDelegate.swift */; };
 		7734BAA12AF5924A008124F9 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734BAA02AF5924A008124F9 /* SignInVC.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		3564C165DDEBFD8B4FC59802 /* Pods-SnapchatClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatClone.release.xcconfig"; path = "Target Support Files/Pods-SnapchatClone/Pods-SnapchatClone.release.xcconfig"; sourceTree = "<group>"; };
+		771CEC272B0D250A006F0B11 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		7734BA992AF5924A008124F9 /* SnapchatClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7734BA9C2AF5924A008124F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7734BA9E2AF5924A008124F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				774515E72AF916BE00C5CCFB /* UploadVC.swift */,
 				774515E92AF916D400C5CCFB /* SettingsVC.swift */,
 				774515ED2AF91C0400C5CCFB /* SnapVC.swift */,
+				771CEC272B0D250A006F0B11 /* FeedCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				774515EE2AF91C0400C5CCFB /* SnapVC.swift in Sources */,
 				7734BA9F2AF5924A008124F9 /* SceneDelegate.swift in Sources */,
 				774515EA2AF916D400C5CCFB /* SettingsVC.swift in Sources */,
+				771CEC282B0D250A006F0B11 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
