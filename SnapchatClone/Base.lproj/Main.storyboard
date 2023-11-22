@@ -252,8 +252,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Left:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfd-1N-YkL">
-                                <rect key="frame" x="38" y="69" width="317" height="68"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time Left:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfd-1N-YkL">
+                                <rect key="frame" x="38" y="96" width="317" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -261,12 +262,6 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lPR-9h-DS9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="lPR-9h-DS9" firstAttribute="bottom" secondItem="Bfd-1N-YkL" secondAttribute="bottom" constant="705" id="4KH-Rd-4w0"/>
-                            <constraint firstItem="Bfd-1N-YkL" firstAttribute="top" secondItem="lPR-9h-DS9" secondAttribute="top" constant="69" id="U7a-gE-Jtp"/>
-                            <constraint firstItem="Bfd-1N-YkL" firstAttribute="centerX" secondItem="kpg-TC-fLq" secondAttribute="centerX" id="pYg-a6-jQY"/>
-                            <constraint firstItem="Bfd-1N-YkL" firstAttribute="leading" secondItem="lPR-9h-DS9" secondAttribute="leading" constant="38" id="ydn-IT-aOD"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mks-7G-LKL"/>
                     <connections>
